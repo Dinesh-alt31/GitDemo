@@ -1,8 +1,39 @@
+# ✅ Project-specific folders
 /FrameworkBuildTestNgMain/
 /HackerRankQns/
 /InterviewQns/
-/FrameworkBuildTestNgMain/
-/HackerRankQns/
 /RahulShetty/
 /RahulShettyAssignment/
 /META-INF/
+
+# 🔧 Maven build output
+target/
+
+# ⚙️ Compiled class files
+*.class
+
+# 🧪 Test output folders
+test-output/
+surefire-reports/
+
+# 📦 Eclipse project files
+.classpath
+.project
+.settings/
+
+# 🧼 OS-specific files
+.DS_Store
+Thumbs.db
+
+# 🧠 IDE-specific folders (optional)
+.idea/
+.vscode/
+
+# 🧪 ExtentReports or screenshots (if used)
+reports/
+screenshots/
+
+# 🤖 Gen AI outputs or logs
+*.json
+*.csv
+*.log
