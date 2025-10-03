@@ -29,6 +29,8 @@ public class SubmitOrderTest extends BaseTest {
 	@Test(dataProvider = "getData", groups = {"Purchase"})
 	public void submitOrder(HashMap<String, String> input) throws IOException
 	{
+		System.out.println("postJira");
+		
 		String countryName = "India";
 		String confirmationMessage = "thankyou for the order.";
 
