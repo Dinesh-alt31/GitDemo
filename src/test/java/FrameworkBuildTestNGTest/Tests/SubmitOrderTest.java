@@ -37,6 +37,8 @@ public class SubmitOrderTest extends BaseTest {
 		
 		System.out.println("changes by x in develop branch after switching to develop branch");
 		
+		System.out.println("change by x after merging code of develop branch into master branch");
+		
 		String countryName = "India";
 		String confirmationMessage = "thankyou for the order.";
 
